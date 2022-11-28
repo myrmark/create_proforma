@@ -69,7 +69,7 @@ session.findById("wnd[0]").sendVKey(8)
 x = 5
 external_list = []
 intercompany_list = []
-for i in range(10):
+for i in range(50):
     try:
         ship_to_party = session.findById(f"wnd[0]/usr/lbl[119,{x}]").text
         proforma_number = session.findById(f"wnd[0]/usr/lbl[6,{x}]").text
